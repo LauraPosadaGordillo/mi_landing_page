@@ -1,39 +1,104 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Portfolio</title>
- <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Laura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <header>
-  <nav>
-    <div class="logo">MiMarca</div>
-    <ul class="menu">
-     <li><a href="#inicio">Inicio</a></li>
-     <li><a href="#servicios">Servicios</a></li>
-     <li><a href="#contacto">Contacto</a></li>
-     <li><a href="#contacto">Experiencia</a></li>
-     <li><a href="#contacto">Educación</a></li>
-    </ul>
-  </nav>
- </header>
+    <header>
+        <nav>
+            <div class="logo cursiva">Laura</div>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
- <main>
-  <section id="inicio" class="hero">
-   <h1 class="cursiva">Laura Posada Gordillo</h1>
-   <p>Descubre el poder de la programación</p>
-  </section>
+    <main>
+        <section id="inicio" class="hero">
+            <h1 class="cursiva">Hola, soy Laura</h1>
+            <p>Descubre el poder de la programación</p>
+        </section>
 
+        <div class="container">
+            <section id="about" class="about">
+                <div>
+                    <img src="https://via.placeholder.com/400" alt="Tu Foto de Perfil">
+                </div>
+                <div class="about-text">
+                    <h2>Acerca de mí</h2>
+                    <p>
+                        Mi nombre es Laura y soy una programadora. Me considero una persona proactiva y orientada a resultados. Siempre busco aprender nuevas tecnologías y enfrentar desafíos que me permitan crecer profesionalmente.
+                    </p>
+                    <p>
+                        <strong>Habilidades Técnicas:</strong>
+                        <ul>
+                            <li><span style="color: var(--primary-color);">✔</span> Lenguajes de programación: JavaScript, Python, Java, C++</li>
+                            <li><span style="color: var(--primary-color);">✔</span> Frameworks: React, Angular, Django, Spring Boot</li>
+                            <li><span style="color: var(--primary-color);">✔</span> Bases de datos: MySQL, PostgreSQL, MongoDB</li>
+                            <li><span style="color: var(--primary-color);">✔</span> Herramientas: Git, Docker, VS Code</li>
+                        </ul>
+                    </p>
+                </div>
+            </section>
 
-    <section id="servicios" class="servicio">
-   <h1 class="cursiva">Laura Posada Gordillo</h1>
-   <p>Descubre el poder de la programación</p>
-  </section>
- </main>
+            <section id="projects">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="projects">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400" alt="Proyecto 1">
+                        <div class="project-info">
+                            <h3>Nombre del Proyecto 1</h3>
+                            <p>Una aplicación web de gestión de tareas construida con React y Node.js.</p>
+                            <a href="#" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/600x400" alt="Proyecto 2">
+                        <div class="project-info">
+                            <h3>Nombre del Proyecto 2</h3>
+                            <p>Un sistema de inventario para una tienda minorista desarrollado con Python y Django.</p>
+                            <a href="#" target="_blank">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="contact" class="contact">
+                <div>
+                    <h2>¡Hablemos!</h2>
+                    <p>Me encantaría conectar contigo. No dudes en contactarme para discutir oportunidades de colaboración.</p>
+                </div>
+                <ul class="contact-details">
+                    <li>
+                        <strong>Email:</strong>
+                        <a href="mailto:tu-email@ejemplo.com">tu-email@ejemplo.com</a>
+                    </li>
+                    <li>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/in/tu-perfil/" target="_blank">/in/tu-perfil</a>
+                    </li>
+                    <li>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/tu-usuario" target="_blank">/tu-usuario</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; @LauraPosadaGordillo 2025.</p>
+    </footer>
 </body>
 </html>
