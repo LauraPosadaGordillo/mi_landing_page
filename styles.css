@@ -13,6 +13,13 @@ background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   font-style: normal;
 }
 /* Selector de clase */
+
+.servicio {
+text-align: center;
+padding: 100px 20px;
+color: yellow;
+}
+
 .hero {
 text-align: center;
 padding: 100px 20px;
