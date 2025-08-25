@@ -11,7 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding-top: 5rem; /* Asegura espacio para la barra de navegación fija */
     background-color: var(--background-color);
     color: var(--text-color);
 }
@@ -21,8 +21,9 @@ body {
 }
 
 header {
-    background-color: transparent;
-    position: absolute;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed; /* La barra de navegación se mantiene fija */
     top: 0;
     left: 0;
     width: 100%;
